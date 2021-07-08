@@ -1,0 +1,9 @@
+First entry in Journal for Programming experience.
+
+I am relearning the skill in order to get in to the world of software developement.
+
+Today, I finally got MySQL functioning correctly, changed the plan again for what I am going to write as my example of COBOL, I plan on making a Python D&D Character Sheet that uses a terminal shell and COBOL to gather the character creation information.
+
+I have been able to create the initial COBOl file in about 3 hours and plan to figure out how to upload that information to a file inside the main Python file.
+
+Also learned how to write python code to update to a MySQL Server.  It took about 4 hours to figure out why the server would not start, but got all of that working.
