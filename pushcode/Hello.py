@@ -17,15 +17,4 @@ os.system('clear')
 # Boolean
 ######################################
 
-first_name = 'John'
-age = 41
-fav_pizza = {
-    "John" : "Pepperoni",
-    "Bob" : "Mushroom",
-    "Mary" : "Cheese"
-}
-name = True
-
-print (name)
-
-
+print (2**3)
