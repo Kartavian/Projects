@@ -15,7 +15,7 @@ def cobClick():
     myLabel = Label(cob, text="COBOL")
     myLabel.pack()
     myLabel.configure(bg='violet')
-    file = open("E:/OC/pushcode/Python Resume files/COBOLtut.txt", "r")
+    program = open("E:/OC/pushcode/Character Creation.exe", "r")
 
 def cplusClick():
     cplus = Tk()
