@@ -1,0 +1,7 @@
+Worked on making the Python version of the Character Sheet, working on having a place for all variables that come from COBOL coding.  Also started the race.py library to house the different definitions for the variables changed and feats added from each race.  The main code will update character files to include the variables from the race.py, cclass.py and skills.py libraries and the window will include the character sheet with the variables selected.
+
+Forgot that "#" is the way to comment for Python because "*>" is the comment method for COBOL.  Final product will open to terminal for character creation done with COBOl code, open the main window to show character sheet and store the variables entered on the py.window. 
+
+Learned the basics of making a Pong game and coded a quick version to test the code and integrate it to my memory. 
+
+Attention grabbed by Lua as potential language to try and make a nintendo-level RPG to play around with... Began watching video from CS50 on Youtube 
