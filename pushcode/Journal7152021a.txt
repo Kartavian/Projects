@@ -1,0 +1,2 @@
+Took what I learned from Pong to develop a Brick Breaker Clone v0.1.  Tried compiling to .exe, but not successful... yet.
+

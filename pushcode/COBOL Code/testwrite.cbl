@@ -1,0 +1,37 @@
+	>>Source Format Free
+IDENTIFICATION DIVISION.
+PROGRAM-ID. writeplay.
+ENVIRONMENT DIVISION.
+INPUT-OUTPUT SECTION.
+FILE-CONTROL.
+	SELECT CharacterFile ASSIGN TO "character.dat"
+		ORGANIZATION IS LINE SEQUENTIAL
+		ACCESS IS SEQUENTIAL.
+DATA DIVISION.
+FILE SECTION.
+FD CharacterFile.
+01 CharacterData.
+	02 IDNum	PIC 9(8).
+	02 pname.
+		03 pnamef	PIC X(15).
+		03 pnamel	PIC X(15).
+		
+WORKING-STORAGE SECTION.
+01 WSCharacter.
+	02 WSIDNum	PIC 9(8).
+	02 WSpname.
+		03 WSpnamef	PIC X(15).
+		03 WSpnamel	PIC X(15).
+		
+PROCEDURE DIVISION.
+OPEN OUTPUT CharacterFile.
+	MOVE 00000001 TO IDNum.
+	MOVE 'Loren' TO pnamef.
+	MOVE 'Stevenson' TO pnamel.
+	WRITE CharacterData
+	END-WRITE.
+CLOSE CharacterFile.
+
+
+
+STOP RUN.
